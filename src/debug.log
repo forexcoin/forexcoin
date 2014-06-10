@@ -1,0 +1,648 @@
+Shutdown : In progress...
+StopNode()
+Flushed 0 addresses to peers.dat  3ms
+Shutdown : done
+2014-06-06 21:54:57 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014-06-06 21:54:57 Forexcoin version v0.8.6.2-ga809b7f (2014-05-31 23:02:21 -0400)
+2014-06-06 21:54:57 Using OpenSSL version OpenSSL 1.0.1f 6 Jan 2014
+2014-06-06 21:54:57 Default data directory /root/.forexcoin3
+2014-06-06 21:54:57 Using data directory 
+2014-06-06 21:54:57 Using at most 125 connections (1024 file descriptors available)
+2014-06-06 21:54:57 Using 4 threads for script verification
+2014-06-06 21:54:57 init message: Verifying wallet...
+2014-06-06 21:54:57 dbenv.open LogDir=database ErrorFile=db.log
+2014-06-06 21:54:57 Bound to 192.99.165.206:7776
+2014-06-06 21:54:57 AddLocal(192.99.165.206:7776,2)
+2014-06-06 21:54:57 init message: Loading block index...
+2014-06-06 21:54:57 Opening LevelDB in blocks/index
+2014-06-06 21:54:57 Opened LevelDB successfully
+2014-06-06 21:54:57 Opening LevelDB in chainstate
+2014-06-06 21:54:57 Opened LevelDB successfully
+2014-06-06 21:54:57 LoadBlockIndexDB(): last block file = 0
+2014-06-06 21:54:57 LoadBlockIndexDB(): synchronized checkpoint not read
+2014-06-06 21:54:57 LoadBlockIndexDB(): transaction index disabled
+2014-06-06 21:54:57 Initializing databases...
+2014-06-06 21:54:57 00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde
+2014-06-06 21:54:57 00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde
+2014-06-06 21:54:57 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d
+2014-06-06 21:54:57 CBlock(hash=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, input=0100000000000000000000000000000000000000000000000000000000000000000000002db2ec32a05a3b7dbab256545391428406143264254bf7496ca13239b876d041a0948653f0ff0f1ec600ae7c, PoW=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, nTime=1401328800, nBits=1e0ffff0, nNonce=2091778246, vtx=1)
+2014-06-06 21:54:57   CTransaction(hash=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d01042332392e30352e3230313420466f726578636f696e2058313120636f6465207265616479)
+    CTxOut(nValue=50.00000000, scriptPubKey=0448bdea76a05c76cd4e5cb2480247)
+  vMerkleTree: 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d 
+2014-06-06 21:54:57 block.GetHash() == 00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde
+2014-06-06 21:54:57 block.hashMerkleRoot == 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d
+2014-06-06 21:54:57 block.nTime = 1401328800 
+2014-06-06 21:54:57 block.nNonce = 2091778246 
+2014-06-06 21:54:57 CBlock(hash=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, input=0100000000000000000000000000000000000000000000000000000000000000000000002db2ec32a05a3b7dbab256545391428406143264254bf7496ca13239b876d041a0948653f0ff0f1ec600ae7c, PoW=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, nTime=1401328800, nBits=1e0ffff0, nNonce=2091778246, vtx=1)
+2014-06-06 21:54:57   CTransaction(hash=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d01042332392e30352e3230313420466f726578636f696e2058313120636f6465207265616479)
+    CTxOut(nValue=50.00000000, scriptPubKey=0448bdea76a05c76cd4e5cb2480247)
+  vMerkleTree: 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d 
+2014-06-06 21:54:57 ERROR: LoadBlockIndex() : failed to initialize block database: boost::filesystem::space: No such file or directory
+2014-06-06 21:54:57 : Error initializing block database.
+
+Do you want to rebuild the block database now?
+2014-06-06 21:54:57 Shutdown : In progress...
+2014-06-06 21:54:57 StopNode()
+2014-06-06 21:54:57 Flushed 0 addresses to peers.dat  8ms
+2014-06-06 21:54:57 Committing 0 changed transactions to coin database...
+2014-06-06 21:54:57 Shutdown : done
+Shutdown : In progress...
+StopNode()
+Flushed 0 addresses to peers.dat  10ms
+Shutdown : done
+2014-06-06 21:55:55 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014-06-06 21:55:55 Forexcoin version v0.8.6.2-ga809b7f (2014-05-31 23:02:21 -0400)
+2014-06-06 21:55:55 Using OpenSSL version OpenSSL 1.0.1f 6 Jan 2014
+2014-06-06 21:55:55 Default data directory /root/.forexcoin3
+2014-06-06 21:55:55 Using data directory 
+2014-06-06 21:55:55 Using at most 125 connections (1024 file descriptors available)
+2014-06-06 21:55:55 Using 4 threads for script verification
+2014-06-06 21:55:55 init message: Verifying wallet...
+2014-06-06 21:55:55 dbenv.open LogDir=database ErrorFile=db.log
+2014-06-06 21:55:55 Bound to 192.99.165.206:7776
+2014-06-06 21:55:55 AddLocal(192.99.165.206:7776,2)
+2014-06-06 21:55:55 init message: Loading block index...
+2014-06-06 21:55:55 Opening LevelDB in blocks/index
+2014-06-06 21:55:55 Opened LevelDB successfully
+2014-06-06 21:55:55 Opening LevelDB in chainstate
+2014-06-06 21:55:55 Opened LevelDB successfully
+2014-06-06 21:55:55 LoadBlockIndexDB(): last block file = 0
+2014-06-06 21:55:55 LoadBlockIndexDB(): synchronized checkpoint not read
+2014-06-06 21:55:55 LoadBlockIndexDB(): transaction index disabled
+2014-06-06 21:55:55 Initializing databases...
+2014-06-06 21:55:55 00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde
+2014-06-06 21:55:55 00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde
+2014-06-06 21:55:55 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d
+2014-06-06 21:55:55 CBlock(hash=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, input=0100000000000000000000000000000000000000000000000000000000000000000000002db2ec32a05a3b7dbab256545391428406143264254bf7496ca13239b876d041a0948653f0ff0f1ec600ae7c, PoW=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, nTime=1401328800, nBits=1e0ffff0, nNonce=2091778246, vtx=1)
+2014-06-06 21:55:55   CTransaction(hash=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d01042332392e30352e3230313420466f726578636f696e2058313120636f6465207265616479)
+    CTxOut(nValue=50.00000000, scriptPubKey=0448bdea76a05c76cd4e5cb2480247)
+  vMerkleTree: 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d 
+2014-06-06 21:55:55 block.GetHash() == 00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde
+2014-06-06 21:55:55 block.hashMerkleRoot == 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d
+2014-06-06 21:55:55 block.nTime = 1401328800 
+2014-06-06 21:55:55 block.nNonce = 2091778246 
+2014-06-06 21:55:55 CBlock(hash=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, input=0100000000000000000000000000000000000000000000000000000000000000000000002db2ec32a05a3b7dbab256545391428406143264254bf7496ca13239b876d041a0948653f0ff0f1ec600ae7c, PoW=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, nTime=1401328800, nBits=1e0ffff0, nNonce=2091778246, vtx=1)
+2014-06-06 21:55:55   CTransaction(hash=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d01042332392e30352e3230313420466f726578636f696e2058313120636f6465207265616479)
+    CTxOut(nValue=50.00000000, scriptPubKey=0448bdea76a05c76cd4e5cb2480247)
+  vMerkleTree: 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d 
+2014-06-06 21:55:55 ERROR: LoadBlockIndex() : failed to initialize block database: boost::filesystem::space: No such file or directory
+2014-06-06 21:55:55 : Error initializing block database.
+
+Do you want to rebuild the block database now?
+2014-06-06 21:55:55 Shutdown : In progress...
+2014-06-06 21:55:55 StopNode()
+2014-06-06 21:55:55 Flushed 0 addresses to peers.dat  3ms
+2014-06-06 21:55:55 Committing 0 changed transactions to coin database...
+2014-06-06 21:55:55 Shutdown : done
+Shutdown : In progress...
+StopNode()
+Flushed 0 addresses to peers.dat  13ms
+Shutdown : done
+2014-06-06 21:56:48 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014-06-06 21:56:48 Forexcoin version v0.8.6.2-ga809b7f (2014-05-31 23:02:21 -0400)
+2014-06-06 21:56:48 Using OpenSSL version OpenSSL 1.0.1f 6 Jan 2014
+2014-06-06 21:56:48 Default data directory /root/.forexcoin3
+2014-06-06 21:56:48 Using data directory 
+2014-06-06 21:56:48 Using at most 125 connections (1024 file descriptors available)
+2014-06-06 21:56:48 Using 4 threads for script verification
+2014-06-06 21:56:48 init message: Verifying wallet...
+2014-06-06 21:56:48 dbenv.open LogDir=database ErrorFile=db.log
+2014-06-06 21:56:48 Bound to 192.99.165.206:7776
+2014-06-06 21:56:48 AddLocal(192.99.165.206:7776,2)
+2014-06-06 21:56:48 init message: Loading block index...
+2014-06-06 21:56:48 Opening LevelDB in blocks/index
+2014-06-06 21:56:48 Opened LevelDB successfully
+2014-06-06 21:56:48 Opening LevelDB in chainstate
+2014-06-06 21:56:48 Opened LevelDB successfully
+2014-06-06 21:56:48 LoadBlockIndexDB(): last block file = 0
+2014-06-06 21:56:48 LoadBlockIndexDB(): synchronized checkpoint not read
+2014-06-06 21:56:48 LoadBlockIndexDB(): transaction index disabled
+2014-06-06 21:56:48 Initializing databases...
+2014-06-06 21:56:48 00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde
+2014-06-06 21:56:48 00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde
+2014-06-06 21:56:48 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d
+2014-06-06 21:56:48 CBlock(hash=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, input=0100000000000000000000000000000000000000000000000000000000000000000000002db2ec32a05a3b7dbab256545391428406143264254bf7496ca13239b876d041a0948653f0ff0f1ec600ae7c, PoW=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, nTime=1401328800, nBits=1e0ffff0, nNonce=2091778246, vtx=1)
+2014-06-06 21:56:48   CTransaction(hash=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d01042332392e30352e3230313420466f726578636f696e2058313120636f6465207265616479)
+    CTxOut(nValue=50.00000000, scriptPubKey=0448bdea76a05c76cd4e5cb2480247)
+  vMerkleTree: 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d 
+2014-06-06 21:56:48 block.GetHash() == 00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde
+2014-06-06 21:56:48 block.hashMerkleRoot == 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d
+2014-06-06 21:56:48 block.nTime = 1401328800 
+2014-06-06 21:56:48 block.nNonce = 2091778246 
+2014-06-06 21:56:48 CBlock(hash=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, input=0100000000000000000000000000000000000000000000000000000000000000000000002db2ec32a05a3b7dbab256545391428406143264254bf7496ca13239b876d041a0948653f0ff0f1ec600ae7c, PoW=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, nTime=1401328800, nBits=1e0ffff0, nNonce=2091778246, vtx=1)
+2014-06-06 21:56:48   CTransaction(hash=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d01042332392e30352e3230313420466f726578636f696e2058313120636f6465207265616479)
+    CTxOut(nValue=50.00000000, scriptPubKey=0448bdea76a05c76cd4e5cb2480247)
+  vMerkleTree: 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d 
+2014-06-06 21:56:48 ERROR: LoadBlockIndex() : failed to initialize block database: boost::filesystem::space: No such file or directory
+2014-06-06 21:56:48 : Error initializing block database.
+
+Do you want to rebuild the block database now?
+2014-06-06 21:56:48 Shutdown : In progress...
+2014-06-06 21:56:48 StopNode()
+2014-06-06 21:56:48 Flushed 0 addresses to peers.dat  2ms
+2014-06-06 21:56:48 Committing 0 changed transactions to coin database...
+2014-06-06 21:56:48 Shutdown : done
+Shutdown : In progress...
+StopNode()
+Flushed 0 addresses to peers.dat  4ms
+Shutdown : done
+2014-06-06 21:57:00 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014-06-06 21:57:00 Forexcoin version v0.8.6.2-ga809b7f (2014-05-31 23:02:21 -0400)
+2014-06-06 21:57:00 Using OpenSSL version OpenSSL 1.0.1f 6 Jan 2014
+2014-06-06 21:57:00 Default data directory /root/.forexcoin3
+2014-06-06 21:57:00 Using data directory 
+2014-06-06 21:57:00 Using at most 125 connections (1024 file descriptors available)
+2014-06-06 21:57:00 Using 4 threads for script verification
+2014-06-06 21:57:00 init message: Verifying wallet...
+2014-06-06 21:57:00 dbenv.open LogDir=database ErrorFile=db.log
+2014-06-06 21:57:00 Bound to 192.99.165.206:7776
+2014-06-06 21:57:00 AddLocal(192.99.165.206:7776,2)
+2014-06-06 21:57:00 init message: Loading block index...
+2014-06-06 21:57:00 Opening LevelDB in blocks/index
+2014-06-06 21:57:00 Opened LevelDB successfully
+2014-06-06 21:57:00 Opening LevelDB in chainstate
+2014-06-06 21:57:00 Opened LevelDB successfully
+2014-06-06 21:57:00 LoadBlockIndexDB(): last block file = 0
+2014-06-06 21:57:00 LoadBlockIndexDB(): synchronized checkpoint not read
+2014-06-06 21:57:00 LoadBlockIndexDB(): transaction index disabled
+2014-06-06 21:57:00 Initializing databases...
+2014-06-06 21:57:00 00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde
+2014-06-06 21:57:00 00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde
+2014-06-06 21:57:00 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d
+2014-06-06 21:57:00 CBlock(hash=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, input=0100000000000000000000000000000000000000000000000000000000000000000000002db2ec32a05a3b7dbab256545391428406143264254bf7496ca13239b876d041a0948653f0ff0f1ec600ae7c, PoW=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, nTime=1401328800, nBits=1e0ffff0, nNonce=2091778246, vtx=1)
+2014-06-06 21:57:00   CTransaction(hash=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d01042332392e30352e3230313420466f726578636f696e2058313120636f6465207265616479)
+    CTxOut(nValue=50.00000000, scriptPubKey=0448bdea76a05c76cd4e5cb2480247)
+  vMerkleTree: 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d 
+2014-06-06 21:57:00 block.GetHash() == 00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde
+2014-06-06 21:57:00 block.hashMerkleRoot == 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d
+2014-06-06 21:57:00 block.nTime = 1401328800 
+2014-06-06 21:57:00 block.nNonce = 2091778246 
+2014-06-06 21:57:00 CBlock(hash=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, input=0100000000000000000000000000000000000000000000000000000000000000000000002db2ec32a05a3b7dbab256545391428406143264254bf7496ca13239b876d041a0948653f0ff0f1ec600ae7c, PoW=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, nTime=1401328800, nBits=1e0ffff0, nNonce=2091778246, vtx=1)
+2014-06-06 21:57:00   CTransaction(hash=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d01042332392e30352e3230313420466f726578636f696e2058313120636f6465207265616479)
+    CTxOut(nValue=50.00000000, scriptPubKey=0448bdea76a05c76cd4e5cb2480247)
+  vMerkleTree: 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d 
+2014-06-06 21:57:00 ERROR: LoadBlockIndex() : failed to initialize block database: boost::filesystem::space: No such file or directory
+2014-06-06 21:57:00 : Error initializing block database.
+
+Do you want to rebuild the block database now?
+2014-06-06 21:57:00 Shutdown : In progress...
+2014-06-06 21:57:00 StopNode()
+2014-06-06 21:57:00 Flushed 0 addresses to peers.dat  3ms
+2014-06-06 21:57:00 Committing 0 changed transactions to coin database...
+2014-06-06 21:57:00 Shutdown : done
+Shutdown : In progress...
+StopNode()
+Flushed 0 addresses to peers.dat  10ms
+Shutdown : done
+2014-06-06 22:00:59 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014-06-06 22:00:59 Forexcoin version v0.8.6.2-ga809b7f (2014-05-31 23:02:21 -0400)
+2014-06-06 22:00:59 Using OpenSSL version OpenSSL 1.0.1f 6 Jan 2014
+2014-06-06 22:00:59 Default data directory /root/.forexcoin3
+2014-06-06 22:00:59 Using data directory 
+2014-06-06 22:00:59 Using at most 125 connections (1024 file descriptors available)
+2014-06-06 22:00:59 Using 4 threads for script verification
+2014-06-06 22:00:59 init message: Verifying wallet...
+2014-06-06 22:00:59 dbenv.open LogDir=database ErrorFile=db.log
+2014-06-06 22:00:59 Unable to bind to 192.99.165.206:9369 on this computer. Forexcoin is probably already running.
+2014-06-06 22:00:59 Error: Unable to bind to 192.99.165.206:9369 on this computer. Forexcoin is probably already running.
+2014-06-06 22:00:59 Error: Failed to listen on any port. Use -listen=0 if you want this.
+2014-06-06 22:00:59 Shutdown : In progress...
+2014-06-06 22:00:59 StopNode()
+2014-06-06 22:00:59 Flushed 0 addresses to peers.dat  13ms
+2014-06-06 22:00:59 Shutdown : done
+Shutdown : In progress...
+StopNode()
+Flushed 0 addresses to peers.dat  14ms
+Shutdown : done
+2014-06-06 22:02:32 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014-06-06 22:02:32 Forexcoin version v0.8.6.2-ga809b7f (2014-05-31 23:02:21 -0400)
+2014-06-06 22:02:32 Using OpenSSL version OpenSSL 1.0.1f 6 Jan 2014
+2014-06-06 22:02:32 Default data directory /root/.forexcoin3
+2014-06-06 22:02:32 Using data directory 
+2014-06-06 22:02:32 Using at most 125 connections (1024 file descriptors available)
+2014-06-06 22:02:32 Using 4 threads for script verification
+2014-06-06 22:02:32 init message: Verifying wallet...
+2014-06-06 22:02:32 dbenv.open LogDir=database ErrorFile=db.log
+2014-06-06 22:02:32 Unable to bind to 192.99.165.209:9369 on this computer (bind returned error 99, Cannot assign requested address)
+2014-06-06 22:02:32 Error: Unable to bind to 192.99.165.209:9369 on this computer (bind returned error 99, Cannot assign requested address)
+2014-06-06 22:02:32 Error: Failed to listen on any port. Use -listen=0 if you want this.
+2014-06-06 22:02:32 Shutdown : In progress...
+2014-06-06 22:02:32 StopNode()
+2014-06-06 22:02:32 Flushed 0 addresses to peers.dat  3ms
+2014-06-06 22:02:32 Shutdown : done
+Shutdown : In progress...
+StopNode()
+Flushed 0 addresses to peers.dat  3ms
+Shutdown : done
+2014-06-06 22:02:46 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014-06-06 22:02:46 Forexcoin version v0.8.6.2-ga809b7f (2014-05-31 23:02:21 -0400)
+2014-06-06 22:02:46 Using OpenSSL version OpenSSL 1.0.1f 6 Jan 2014
+2014-06-06 22:02:46 Default data directory /root/.forexcoin3
+2014-06-06 22:02:46 Using data directory 
+2014-06-06 22:02:46 Using at most 125 connections (1024 file descriptors available)
+2014-06-06 22:02:46 Using 4 threads for script verification
+2014-06-06 22:02:46 init message: Verifying wallet...
+2014-06-06 22:02:46 dbenv.open LogDir=database ErrorFile=db.log
+2014-06-06 22:02:46 Unable to bind to 192.99.165.206:9369 on this computer. Forexcoin is probably already running.
+2014-06-06 22:02:46 Error: Unable to bind to 192.99.165.206:9369 on this computer. Forexcoin is probably already running.
+2014-06-06 22:02:46 Error: Failed to listen on any port. Use -listen=0 if you want this.
+2014-06-06 22:02:46 Shutdown : In progress...
+2014-06-06 22:02:46 StopNode()
+2014-06-06 22:02:46 Flushed 0 addresses to peers.dat  3ms
+2014-06-06 22:02:46 Shutdown : done
+Shutdown : In progress...
+StopNode()
+Flushed 0 addresses to peers.dat  2ms
+Shutdown : done
+2014-06-06 22:06:50 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014-06-06 22:06:50 Forexcoin version v0.8.6.2-ga809b7f (2014-05-31 23:02:21 -0400)
+2014-06-06 22:06:50 Using OpenSSL version OpenSSL 1.0.1f 6 Jan 2014
+2014-06-06 22:06:50 Default data directory /root/.forexcoin3
+2014-06-06 22:06:50 Using data directory 
+2014-06-06 22:06:50 Using at most 125 connections (1024 file descriptors available)
+2014-06-06 22:06:50 Using 4 threads for script verification
+2014-06-06 22:06:50 init message: Verifying wallet...
+2014-06-06 22:06:50 dbenv.open LogDir=database ErrorFile=db.log
+2014-06-06 22:06:50 Unable to bind to 192.99.165.209:9369 on this computer (bind returned error 99, Cannot assign requested address)
+2014-06-06 22:06:50 Error: Unable to bind to 192.99.165.209:9369 on this computer (bind returned error 99, Cannot assign requested address)
+2014-06-06 22:06:50 Error: Failed to listen on any port. Use -listen=0 if you want this.
+2014-06-06 22:06:50 Shutdown : In progress...
+2014-06-06 22:06:50 StopNode()
+2014-06-06 22:06:50 Flushed 0 addresses to peers.dat  4ms
+2014-06-06 22:06:50 Shutdown : done
+Shutdown : In progress...
+StopNode()
+Flushed 0 addresses to peers.dat  7ms
+Shutdown : done
+2014-06-06 22:07:05 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014-06-06 22:07:05 Forexcoin version v0.8.6.2-ga809b7f (2014-05-31 23:02:21 -0400)
+2014-06-06 22:07:05 Using OpenSSL version OpenSSL 1.0.1f 6 Jan 2014
+2014-06-06 22:07:05 Default data directory /root/.forexcoin3
+2014-06-06 22:07:05 Using data directory 
+2014-06-06 22:07:05 Using at most 125 connections (1024 file descriptors available)
+2014-06-06 22:07:05 Using 4 threads for script verification
+2014-06-06 22:07:05 init message: Verifying wallet...
+2014-06-06 22:07:05 dbenv.open LogDir=database ErrorFile=db.log
+2014-06-06 22:07:05 Unable to bind to 192.99.165.206:9369 on this computer. Forexcoin is probably already running.
+2014-06-06 22:07:05 Error: Unable to bind to 192.99.165.206:9369 on this computer. Forexcoin is probably already running.
+2014-06-06 22:07:05 Error: Failed to listen on any port. Use -listen=0 if you want this.
+2014-06-06 22:07:05 Shutdown : In progress...
+2014-06-06 22:07:05 StopNode()
+2014-06-06 22:07:05 Flushed 0 addresses to peers.dat  12ms
+2014-06-06 22:07:05 Shutdown : done
+Shutdown : In progress...
+StopNode()
+Flushed 0 addresses to peers.dat  12ms
+Shutdown : done
+2014-06-06 22:08:31 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014-06-06 22:08:31 Forexcoin version v0.8.6.2-ga809b7f (2014-05-31 23:02:21 -0400)
+2014-06-06 22:08:31 Using OpenSSL version OpenSSL 1.0.1f 6 Jan 2014
+2014-06-06 22:08:31 Default data directory /root/.forexcoin3
+2014-06-06 22:08:31 Using data directory 
+2014-06-06 22:08:31 Using at most 125 connections (1024 file descriptors available)
+2014-06-06 22:08:31 Using 4 threads for script verification
+2014-06-06 22:08:31 init message: Verifying wallet...
+2014-06-06 22:08:31 dbenv.open LogDir=database ErrorFile=db.log
+2014-06-06 22:08:31 Unable to bind to 192.99.165.206:9369 on this computer. Forexcoin is probably already running.
+2014-06-06 22:08:31 Error: Unable to bind to 192.99.165.206:9369 on this computer. Forexcoin is probably already running.
+2014-06-06 22:08:31 Error: Failed to listen on any port. Use -listen=0 if you want this.
+2014-06-06 22:08:31 Shutdown : In progress...
+2014-06-06 22:08:31 StopNode()
+2014-06-06 22:08:31 Flushed 0 addresses to peers.dat  44ms
+2014-06-06 22:08:31 Shutdown : done
+Shutdown : In progress...
+StopNode()
+Flushed 0 addresses to peers.dat  9ms
+Shutdown : done
+2014-06-06 22:08:45 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014-06-06 22:08:45 Forexcoin version v0.8.6.2-ga809b7f (2014-05-31 23:02:21 -0400)
+2014-06-06 22:08:45 Using OpenSSL version OpenSSL 1.0.1f 6 Jan 2014
+2014-06-06 22:08:45 Default data directory /root/.forexcoin3
+2014-06-06 22:08:45 Using data directory 
+2014-06-06 22:08:45 Using at most 125 connections (1024 file descriptors available)
+2014-06-06 22:08:45 Using 4 threads for script verification
+2014-06-06 22:08:45 init message: Verifying wallet...
+2014-06-06 22:08:45 dbenv.open LogDir=database ErrorFile=db.log
+2014-06-06 22:08:45 Bound to 192.99.165.206:7776
+2014-06-06 22:08:45 AddLocal(192.99.165.206:7776,2)
+2014-06-06 22:08:45 init message: Loading block index...
+2014-06-06 22:08:45 Opening LevelDB in blocks/index
+2014-06-06 22:08:45 Opened LevelDB successfully
+2014-06-06 22:08:45 Opening LevelDB in chainstate
+2014-06-06 22:08:45 Opened LevelDB successfully
+2014-06-06 22:08:45 LoadBlockIndexDB(): last block file = 0
+2014-06-06 22:08:45 LoadBlockIndexDB(): synchronized checkpoint not read
+2014-06-06 22:08:45 LoadBlockIndexDB(): transaction index disabled
+2014-06-06 22:08:45 Initializing databases...
+2014-06-06 22:08:45 00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde
+2014-06-06 22:08:45 00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde
+2014-06-06 22:08:45 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d
+2014-06-06 22:08:45 CBlock(hash=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, input=0100000000000000000000000000000000000000000000000000000000000000000000002db2ec32a05a3b7dbab256545391428406143264254bf7496ca13239b876d041a0948653f0ff0f1ec600ae7c, PoW=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, nTime=1401328800, nBits=1e0ffff0, nNonce=2091778246, vtx=1)
+2014-06-06 22:08:45   CTransaction(hash=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d01042332392e30352e3230313420466f726578636f696e2058313120636f6465207265616479)
+    CTxOut(nValue=50.00000000, scriptPubKey=0448bdea76a05c76cd4e5cb2480247)
+  vMerkleTree: 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d 
+2014-06-06 22:08:45 block.GetHash() == 00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde
+2014-06-06 22:08:45 block.hashMerkleRoot == 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d
+2014-06-06 22:08:45 block.nTime = 1401328800 
+2014-06-06 22:08:45 block.nNonce = 2091778246 
+2014-06-06 22:08:45 CBlock(hash=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, input=0100000000000000000000000000000000000000000000000000000000000000000000002db2ec32a05a3b7dbab256545391428406143264254bf7496ca13239b876d041a0948653f0ff0f1ec600ae7c, PoW=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, nTime=1401328800, nBits=1e0ffff0, nNonce=2091778246, vtx=1)
+2014-06-06 22:08:45   CTransaction(hash=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d01042332392e30352e3230313420466f726578636f696e2058313120636f6465207265616479)
+    CTxOut(nValue=50.00000000, scriptPubKey=0448bdea76a05c76cd4e5cb2480247)
+  vMerkleTree: 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d 
+2014-06-06 22:08:45 ERROR: LoadBlockIndex() : failed to initialize block database: boost::filesystem::space: No such file or directory
+2014-06-06 22:08:45 : Error initializing block database.
+
+Do you want to rebuild the block database now?
+2014-06-06 22:08:45 Shutdown : In progress...
+2014-06-06 22:08:45 StopNode()
+2014-06-06 22:08:45 Flushed 0 addresses to peers.dat  3ms
+2014-06-06 22:08:45 Committing 0 changed transactions to coin database...
+2014-06-06 22:08:45 Shutdown : done
+Shutdown : In progress...
+StopNode()
+Flushed 0 addresses to peers.dat  3ms
+Shutdown : done
+2014-06-06 22:12:28 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014-06-06 22:12:28 Forexcoin version v0.8.6.2-ga809b7f (2014-05-31 23:02:21 -0400)
+2014-06-06 22:12:28 Using OpenSSL version OpenSSL 1.0.1f 6 Jan 2014
+2014-06-06 22:12:28 Default data directory /root/.forexcoin3
+2014-06-06 22:12:28 Using data directory 
+2014-06-06 22:12:28 Using at most 125 connections (1024 file descriptors available)
+2014-06-06 22:12:28 Using 4 threads for script verification
+2014-06-06 22:12:28 init message: Verifying wallet...
+2014-06-06 22:12:28 dbenv.open LogDir=database ErrorFile=db.log
+2014-06-06 22:12:28 Bound to 192.99.165.206:7776
+2014-06-06 22:12:28 AddLocal(192.99.165.206:7776,2)
+2014-06-06 22:12:28 init message: Loading block index...
+2014-06-06 22:12:28 Opening LevelDB in blocks/index
+2014-06-06 22:12:28 Opened LevelDB successfully
+2014-06-06 22:12:28 Opening LevelDB in chainstate
+2014-06-06 22:12:28 Opened LevelDB successfully
+2014-06-06 22:12:28 LoadBlockIndexDB(): last block file = 0
+2014-06-06 22:12:28 LoadBlockIndexDB(): synchronized checkpoint not read
+2014-06-06 22:12:28 LoadBlockIndexDB(): transaction index disabled
+2014-06-06 22:12:28 Initializing databases...
+2014-06-06 22:12:28 00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde
+2014-06-06 22:12:28 00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde
+2014-06-06 22:12:28 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d
+2014-06-06 22:12:28 CBlock(hash=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, input=0100000000000000000000000000000000000000000000000000000000000000000000002db2ec32a05a3b7dbab256545391428406143264254bf7496ca13239b876d041a0948653f0ff0f1ec600ae7c, PoW=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, nTime=1401328800, nBits=1e0ffff0, nNonce=2091778246, vtx=1)
+2014-06-06 22:12:28   CTransaction(hash=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d01042332392e30352e3230313420466f726578636f696e2058313120636f6465207265616479)
+    CTxOut(nValue=50.00000000, scriptPubKey=0448bdea76a05c76cd4e5cb2480247)
+  vMerkleTree: 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d 
+2014-06-06 22:12:28 block.GetHash() == 00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde
+2014-06-06 22:12:28 block.hashMerkleRoot == 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d
+2014-06-06 22:12:28 block.nTime = 1401328800 
+2014-06-06 22:12:28 block.nNonce = 2091778246 
+2014-06-06 22:12:28 CBlock(hash=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, input=0100000000000000000000000000000000000000000000000000000000000000000000002db2ec32a05a3b7dbab256545391428406143264254bf7496ca13239b876d041a0948653f0ff0f1ec600ae7c, PoW=00000ba78652446372afab79a4b88f41c1be81b3e60f6c4533bacb5a12300dde, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, nTime=1401328800, nBits=1e0ffff0, nNonce=2091778246, vtx=1)
+2014-06-06 22:12:28   CTransaction(hash=41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d01042332392e30352e3230313420466f726578636f696e2058313120636f6465207265616479)
+    CTxOut(nValue=50.00000000, scriptPubKey=0448bdea76a05c76cd4e5cb2480247)
+  vMerkleTree: 41d076b83932a16c49f74b2564321406844291535456b2ba7d3b5aa032ecb22d 
+2014-06-06 22:12:28 ERROR: LoadBlockIndex() : failed to initialize block database: boost::filesystem::space: No such file or directory
+2014-06-06 22:12:28 : Error initializing block database.
+
+Do you want to rebuild the block database now?
+2014-06-06 22:12:28 Shutdown : In progress...
+2014-06-06 22:12:28 StopNode()
+2014-06-06 22:12:28 Flushed 0 addresses to peers.dat  11ms
+2014-06-06 22:12:28 Committing 0 changed transactions to coin database...
+2014-06-06 22:12:28 Shutdown : done
